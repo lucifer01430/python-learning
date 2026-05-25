@@ -6,6 +6,18 @@ A focused Python practice workspace for refining logic, reinforcing concepts, an
 
 This repository captures a disciplined daily practice routine for an intermediate Python developer who already knows the fundamentals and is now strengthening problem-solving skills, code quality, and technical consistency.
 
+## Chapters
+
+The course is divided into several chapters, each focusing on different aspects of Python programming:
+
+- **Chapter 1: Modules, Comments & pip**
+  - Writing the first Python program
+  - Understanding modules
+  - Using pip for package management
+  - Using Python as a calculator
+  - Comments in Python
+
+
 ## 🎯 Purpose of Repository
 
 - Polish Python concepts through hands-on exercises
