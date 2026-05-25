@@ -1,2 +1,25 @@
-Python was developed by Guido Van Rossum in 1991.
-Python is interpreter based programming language.
+================= This is basically a typed Python Notes which I am creating while i am start polishing my concepts regarding python again. =========
+
+
+1. Python was developed by Guido Van Rossum in 1991.
+2. Python is interpreter based programming language.
+3. The Extension of the python files is .py 
+4. Modules - This is the code which is written by someone else and we can use it in our program. And we can install any module in python by using pip. Like we can install modules in python by using - pip install [Module name]
+
+For Example : pip install django, pip install pyjokes
+
+5. Pip is basically a package manager for python which allow us to install modules in python there are sp many modules are availabel in python for the working and this makes the python bit more easy. Example - pandas , numpy, django, flask, django-jazzmin etc are some modules in python.
+
+6. In python basically two types of module are availabel - Built in module and Second one is External Module.
+
+7. We can use python as a calculator by typing "pyhton" and hit inter in terminal it open REPL in python which stands for - Read Evaluate Print Loop 
+
+8. In python errors are basically a code based mistakes that stop the program.
+
+9. In python we use '#' for single line comment and """_"""" for multiline comment.
+
+10. When we want to write something in your program but you want that it to be ignored by python sp we use comment.
+
+11. 
+
+
