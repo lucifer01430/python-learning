@@ -1,5 +1,8 @@
 ================= This is basically a typed Python Notes which I am creating while i am start polishing my concepts regarding python again. =========
 
+
+CHAPTER - 1 : Overview
+
 Just like we use Hindi or English to communicate with each other, we use a programming language like Python to communicate with the computer. Programming is a way to instruct the computer to perform various tasks.
 
 
@@ -22,6 +25,37 @@ For Example : pip install django, pip install pyjokes
 
 10. When we want to write something in your program but you want that it to be ignored by python sp we use comment.
 
-11. 
 
 
+=================================================================================
+
+
+CHAPTER -2 : Variable and Data Types in Python 
+
+Variables : This is basically a container whic holds some value in program. In python we don't have to define any variable we can direct declare any cvariable in python.
+For Example :
+
+a= 30      # variables = container to store a value. 
+b= "harsh" # keywords = reserved words in python  
+c= 71.22   # identifiers = class/function/variable name 
+
+DATA TYPES 
+Primarily these are the following data types in Python: 
+1. Integers 
+2. Floating point numbers 
+3. Strings 
+4. Booleans  
+5. None 
+
+Python is a fantastic language that automatically identifies the type of data for us. 
+a= 71            # identifies a as class <int> 
+b=88.44          # identifies b as class <float> 
+name= "harsh"    # identifies name as class <str> 
+
+OPERATORS IN PYTHON : Operators are basically used for perform some operations between two operands.
+
+Some common Operators available in python -
+
+1. Arithmetic Operator : +,-,*,/
+2. Assignment Operator : = ,+=, -= etc.
+3. Comparison Operator : >=, <=, != etc.
