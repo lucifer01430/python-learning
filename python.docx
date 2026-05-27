@@ -76,3 +76,8 @@ int("32")=> 32   # string to integer conversion
 float(32)  => 32.0  # integer to float conversion 
 … and so, on Here "31" is a string literal and 31 a numeric literal.
 
+INPUT () FUNCTION 
+This function allows the user to take input from the keyboard as a string. 
+A = input ("enter name")   # if a is "harry", the user entered harry 
+It is important to note that the output of input is always a string (even is a number is 
+entered). 
