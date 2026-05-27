@@ -17,6 +17,16 @@ The course is divided into several chapters, each focusing on different aspects 
   - Using Python as a calculator
   - Comments in Python
 
+- **Chapter 2: Variables and Data Types**
+  - Defining variables
+  - Different data types in Python
+  - Rules for choosing an identifier
+  - Operators in Python
+  - Using `type()` function and typecasting
+  - `input()` function
+
+  
+
 
 ## 🎯 Purpose of Repository
 
