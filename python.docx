@@ -78,6 +78,103 @@ float(32)  => 32.0  # integer to float conversion
 
 INPUT () FUNCTION 
 This function allows the user to take input from the keyboard as a string. 
-A = input ("enter name")   # if a is "harry", the user entered harry 
+A = input ("enter name")   # if a is "harsh", the user entered harsh 
 It is important to note that the output of input is always a string (even is a number is 
 entered). 
+
+======================================================================================
+
+CHAPTER - 3 
+
+STRINGS IN PYTHON 
+
+String is a data type in python. 
+String is a sequence of characters enclosed in quotes. 
+We can primarily write a string in these three ways. 
+a ='harsh'  # Single quoted string 
+b = "harsh"  # Double quoted string 
+c = '''harsh'''  # Triple quoted string 
+
+
+STRING SLICING 
+A string in python can be sliced for getting a part of the strings.
+
+eg : name = 'Harsh' => length = 5
+
+where index start from 0 so that H = 0, A = 1, R = 3, S = 4, H = 5
+
+when we want to do negative slicing the we follow indexing from the end and it's count starts from  -1
+
+eg : name = 'Pandey'
+
+where negative slicing starts from end like => y = -1, e = -2, d = -3, n = -4, a = -5, P = -6
+
+
+SLICING WITH SKIP VALUE 
+We can provide a skip value as a part of our slice like this: 
+word = "amazing" 
+word[1: 6: 2] # "mzn" 
+
+
+Other advanced slicing techniques: 
+Word = "amazing" 
+Word = [:7]  # word [0:7] – 'amazing' 
+Word = [0:]  # word [0:7] – 'amazing' 
+
+
+STRING FUNCTIONS 
+Some of the commonly used functions to perform operations on or manipulate strings 
+are as follows. Let us assume there is a string ‘str’ as follows: 
+
+str = 'harsh' 
+
+Now when operated on this string ‘str’, these functions do the following: 
+1. len () function – This function returns the length of the strings. 
+str = "harsh" 
+print(len(str))  # Output: 5 
+
+
+2. String.endswith("rsh") – This function_ tells whether the variable string ends with 
+the string "rsh" or not. If string is "harsh", it returns true for "rsh" since harsh ends 
+with rsh. 
+str = "harsh" 
+print(str.endswith("rsh"))  # Output: True 
+
+
+3. string.count("c") – counts the total number of occurrences of any character. 
+str = "harsh" 
+count = str.count("r") 
+print(count)  # Output: 2 
+
+
+4. the first character of a given string. 
+str = "harsh" 
+capitalized_string = str.capitalize() 
+print(capitalized_string)  # Output: "harsh" 
+
+
+5. string.find(word) – This function friends a word and returns the index of first 
+occurrence of that word in the string. 
+str = "harsh" 
+14 
+index = str.find("rr") 
+print(index)  # Output: 2 
+
+
+6. string.replace (old word, new word ) – This function replace the old word with 
+new word in the entire string. 
+str = "harsh" 
+replaced_string = str.replace("r", "l") 
+print(replaced_string)  # Output: "halsh" 
+
+ESCAPE SEQUENCE CHARACTERS 
+
+Sequence of characters after backslash "\" → Escape Sequence characters 
+Escape Sequence characters comprise of more than one character but represent one 
+character when used within the strings.
+
+1. \n - for new line 
+2. \t - for tab 
+3. \" \" - for print double quote 
+4. \' \' - for print single quote
+
