@@ -24,7 +24,22 @@ The course is divided into several chapters, each focusing on different aspects 
   - Operators in Python
   - Using `type()` function and typecasting
   - `input()` function
-
+    
+- **Chapter 3: Strings**
+  - String slicing
+  - Slicing with skip values
+  - String functions
+  - Escape sequence characters
+- **Chapter 4: Lists and Tuples**
+  - List indexing
+  - List methods
+  - Tuples in Python
+  - Tuple methods
+- **Chapter 5: Dictionary & Sets**
+  - Properties of dictionaries
+  - Dictionary methods
+  - Sets in Python
+  - Properties and operations on sets
   
 
 
